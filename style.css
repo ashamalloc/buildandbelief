@@ -73,9 +73,9 @@ nav .hi{
 @media screen and (max-width:640px) {
     .imgrock img{
     max-height: 64vh;
-    max-width:100%;
+    max-width:80%;
     height:auto;
-    margin: 4em;
+    margin: 10%;
 }
     .about{
         padding-right:10vw;
