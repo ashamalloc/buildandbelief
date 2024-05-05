@@ -99,6 +99,12 @@ nav .hi{
         height: auto;
         margin: 2vw 2vw 0 0;
     }
+    .p1{
+        margin:0;
+    }
+    .p2{
+        margin:0;
+    }
 }
 @media screen and (max-width:800px) {
     .rock{
