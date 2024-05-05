@@ -71,7 +71,12 @@ nav .hi{
     box-shadow:rgba(29, 177, 147, 0.1) 0 16px 10px;
 }
 @media screen and (max-width:640px) {
-    
+    .imgrock img{
+    max-height: 64vh;
+    max-width:100%;
+    height:auto;
+    margin: 4em;
+}
     .rock{
         display:block;
     }
