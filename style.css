@@ -77,6 +77,9 @@ nav .hi{
     height:auto;
     margin: 4em;
 }
+    .about{
+        padding-right:10vw;
+    }
     .rock{
         display:block;
     }
