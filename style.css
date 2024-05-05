@@ -70,8 +70,35 @@ nav .hi{
     font-size:medium;
     box-shadow:rgba(29, 177, 147, 0.1) 0 16px 10px;
 }
-@media screen and (max-width:800px) {
+@media screen and (max-width:640px) {
+    
     .rock{
         display:block;
     }
+    nav .right{
+        display: flex;
+        gap:0;
+    }
+    nav li{
+        display: block;
+        padding: 0 20px;
+        font-size:small;
+        color: #5D5D5D;
+        
+    }
+    nav{
+        height: auto;
+        margin: 2vw 2vw 0 0;
+    }
+}
+@media screen and (max-width:800px) {
+    .rock{
+        display:block;
+        
+    }
+    nav .right{
+        display: flex;
+        gap:0;
+    }
+    
 }
