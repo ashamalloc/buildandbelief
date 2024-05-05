@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    height: 10vh;
+    margin: 0 2vw 0 0;
+    border-bottom: 5px solid rgb(250, 250, 250);
+    display: flex;
+    justify-content:space-between;
+}
+nav .right{
+    display: flex;
+    gap:25vw;
+}
+nav .logo{
+    height:50px;
+    object-fit:contain;
+    margin: 5px 15px;
+}
+nav .menu{
+    list-style: none;
+    align-content: center;
+}
+nav li{
+    display: inline;
+    padding: 0 20px;
+    font-size:small;
+    color: #5D5D5D;
+    
+}
+nav .hi{
+    color:darkcyan;
+    text-decoration: underline;
+    align-self: center;
+
+}
+.rock{
+    display: flex;
+}
+.imgrock img{
+    height: 64vh;
+    margin: 4em;
+}
+.about{
+    margin:4em ;
+    padding-right: 6em;
+    align-content: center;
+}
+.p1{
+    color: rgb(27, 53, 68);
+    font-size:3em;
+    letter-spacing:0;
+    font-weight:1000;
+    margin: 10px;
+}
+.p2{
+    color: rgb(115, 115, 115);
+    margin: 10px;
+}
+.mybutton{
+    margin: 10px;
+    color: white;
+    background-color: #1DB194;
+    height: 2.5em;
+    width: 12em;
+    border: none;
+    border-radius:1.1em;
+    font-size:medium;
+    box-shadow:rgba(29, 177, 147, 0.1) 0 16px 10px;
+}
+@media screen and (max-width:800px) {
+    .rock{
+        display:block;
+    }
+}
